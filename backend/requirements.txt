@@ -1,0 +1,18 @@
+# --- Web framework ---
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+
+# --- Data / validation ---
+pydantic>=2.6,<3.0
+pydantic-settings>=2.2
+python-dotenv>=1.0
+
+# --- Database (SQLAlchemy works with SQLite / Postgres / MySQL) ---
+SQLAlchemy>=2.0,<3.0
+psycopg2-binary>=2.9    # Postgres driver (optional, used when DATABASE_URL is postgres)
+PyMySQL>=1.1            # MySQL driver (optional, used when DATABASE_URL is mysql)
+
+# --- AI agent framework + LLM ---
+langgraph>=0.2.55,<0.4
+langchain-core>=0.3.0,<0.4
+langchain-groq>=0.2.0,<0.4

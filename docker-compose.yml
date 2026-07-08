@@ -1,0 +1,20 @@
+# Optional: spin up Postgres to satisfy the "MySQL/Postgres" requirement.
+# Usage:
+#   docker compose up -d
+#   then set in backend/.env:
+#   DATABASE_URL=postgresql+psycopg2://crm:crm@localhost:5432/hcp_crm
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: hcp_crm_db
+    environment:
+      POSTGRES_USER: crm
+      POSTGRES_PASSWORD: crm
+      POSTGRES_DB: hcp_crm
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
