@@ -24,40 +24,11 @@
 
 <div align="center">
 
-<!-- ▶️ Replace the link and thumbnail below with your recording -->
-[![Watch the demo](frontend/public/screenshots/video-thumbnail.png)](PASTE_YOUR_VIDEO_LINK_HERE)
+[![Watch the Demo](https://img.shields.io/badge/%E2%96%B6%20Watch%20the%20Demo-Google%20Drive-EA4335?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1W_TMcLRWbkFFBoZ1IB1lizy_D5e0yzma/view?usp=sharing)
 
-**▶️ [Watch the 10&ndash;15 min walkthrough](PASTE_YOUR_VIDEO_LINK_HERE)** &mdash; frontend tour, all 6 LangGraph tools live, code structure, and task summary.
+**▶️ [Watch the 10&ndash;15 min walkthrough](https://drive.google.com/file/d/1W_TMcLRWbkFFBoZ1IB1lizy_D5e0yzma/view?usp=sharing)** &mdash; frontend tour, all 6 LangGraph tools live, code structure, and task summary.
 
 </div>
-
-> _Placeholder:_ record your demo, upload it (Google Drive / YouTube / Loom), and replace `PASTE_YOUR_VIDEO_LINK_HERE` and `video-thumbnail.png`.
-
----
-
-## Screenshots
-
-<!-- 📸 Drop your screenshots into frontend/public/screenshots/ with these names -->
-<table>
-  <tr>
-    <td width="50%"><img src="frontend/public/screenshots/log-interaction.png" alt="Log Interaction screen"/></td>
-    <td width="50%"><img src="frontend/public/screenshots/chat-fills-form.png" alt="Chat fills the form"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Log Interaction</strong> &mdash; split screen: structured form + AI chat</td>
-    <td align="center"><strong>Log via chat</strong> &mdash; one sentence fills every field</td>
-  </tr>
-  <tr>
-    <td><img src="frontend/public/screenshots/edit-interaction.png" alt="Edit via chat"/></td>
-    <td><img src="frontend/public/screenshots/voice-note.png" alt="Voice note transcription"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Edit Interaction</strong> &mdash; correct only the fields you mention</td>
-    <td align="center"><strong>Voice Note</strong> &mdash; record &rarr; Groq Whisper &rarr; summarize</td>
-  </tr>
-</table>
-
-> _Placeholder:_ capture these four screenshots from your running app and save them under `frontend/public/screenshots/`.
 
 ---
 
